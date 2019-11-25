@@ -8,12 +8,12 @@ Pour scanner notre site, il suffit de lancer dirb avec une liste de mots cles a 
 
 ./dirb http://10.13.0.11 wordlists/small.txt
 
-On trouve alorss deux resultats qui nosu interessent:
+On trouve alors deux resultats qui nosu interessent:
 
 ==> DIRECTORY: http://10.13.0.11/whatever/
 ---- Entering directory: http://10.13.0.11/admin/ ----
 
-En allant dans notre premiere url, on a acces a un fichiier de mot de passe, avec un nom d'utilisateur "root"
+En allant dans notre premiere url, on a acces a un fichiier de mot de passe ".htaccess", avec un nom d'utilisateur "root"
 et une chaine de caractere hashee en md5 "8621ffdbc5698829397d97767ac13db3".
 Apres avoir decrypte la chaine md5, on sait que le mot de passe est "dragon"
 
