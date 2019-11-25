@@ -1,4 +1,4 @@
-###2 - OPEN REDIRECT
+### 2 - OPEN REDIRECT
 
 FLAG: b9e775a0291fed784a2d9680fcfad7edd6b8cdf87648da647aaf4bba288bcab3
 URL:  http://10.13.0.127/index.php

@@ -1,4 +1,4 @@
-###6 - ADMIN PASSWORD
+### 6 - ADMIN PASSWORD
 
 FLAG: d19b4823e0d5600ceed56d5e896ef328d7a2b9e7ac7e80f4fcdb9b10bcb3e7ff
 URL:  http://10.13.0.11
