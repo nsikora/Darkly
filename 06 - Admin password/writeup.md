@@ -8,7 +8,7 @@ Pour scanner notre site, il suffit de lancer dirb avec une liste de mots cles a 
 
 ./dirb http://10.13.0.11 wordlists/small.txt
 
-On trouve alors deux resultats qui nosu interessent:
+On trouve alors deux resultats qui nous interessent:
 
 ==> DIRECTORY: http://10.13.0.11/whatever/
 ---- Entering directory: http://10.13.0.11/admin/ ----

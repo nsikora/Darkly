@@ -16,7 +16,7 @@ Nous pouvons lire par rapport à ce qui semble être des tables par défaut, les
 "db_default", "users", "guestbook", "list_image", "vote_db"
 
 Comme on regarde dans la page members, la table qui semble la plus proche de ce sujet semble être users.
-On va maitenant lister les colonnes et les tables à laquelle elles appartiennent avec la commande suivante:
+On va maintenant lister les colonnes et les tables à laquelle elles appartiennent avec la commande suivante:
 
 0 UNION SELECT table_name, column_name FROM information_schema.columns
 
