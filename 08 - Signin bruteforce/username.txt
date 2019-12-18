@@ -1,8 +1,8 @@
- EAdmin
- UAMIS\_
- UNITY\_
- UOMNI\_
- UVPIM\_
+EAdmin
+UAMIS\_
+UNITY\_
+UOMNI\_
+UVPIM\_
 !root
 $ALOC$
 $SRV

