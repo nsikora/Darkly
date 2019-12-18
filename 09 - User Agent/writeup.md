@@ -12,4 +12,4 @@ Pour se connecter de cette manière, on va utiliser curl pour effectuer une requ
 
 En utilisant la commande suivante, on trouve alors le flag.
 
-curl -A "ft_bornToSec" --referer "https://www.nsa.gov/" http://10.12.1.129/\?page=e43ad1fdc54babe674da7c7b8f0127bde61de3fbe01def7d00f151c2fcca6d1c
+curl -A "ft_bornToSec" --referer "https://www.nsa.gov/" http://10.13.0.11//\?page=e43ad1fdc54babe674da7c7b8f0127bde61de3fbe01def7d00f151c2fcca6d1c
