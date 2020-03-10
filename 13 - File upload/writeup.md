@@ -8,8 +8,9 @@ Pour injecter du code en PHP, on peut utiliser un fichier a double extension (ex
 Il y a une protection sur les extensions, donc il nous reste la tentative avec curl.
 
 On va creer un fichier exploit.php qui va contenir un grep de flag, que l'on va executer avec la commande curl -F qui va tout simplement
-envoyer un formulaire vers notre url d'upload, et faire passer notre fichier php pour une image jpeg en modifiant son header pour que le site execute le code. 
+envoyer un formulaire contenant les valeurs voulues, vers notre url d'upload, et faire passer notre fichier php pour une image jpeg
+en modifiant son header pour obtenir uen page de reponse contenant notre flag. 
 
 Traduit en code, cela donne:
 
-"touch exploit.php && curl -F "uploaded=@exploit.php;type=image/jpeg" -F "Upload=Upload" "http://10.12.1.107/?page=upload" | grep flag"
+"touch exploit.php && curl -F "uploaded=@exploit.php;type=image/jpeg" -F "Upload=ok" "http://10.12.1.107/?page=upload""
