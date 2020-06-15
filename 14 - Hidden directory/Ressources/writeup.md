@@ -24,4 +24,4 @@ Nous l'uiliserons avec la commande suivante, afin de stocker son resultat:
 Une fois notre script lance, on peut voir qu'une multitude de messages repetitifs 
 sont presents dans notre fichier result.txt.Pour les ignorer, il suffit d'utiliser la commande:
 
-"cat result.txt | grep -v "Demande" | grep -v "Non" | grep -v "Tu" | grep -v "Retorune" | grep -v "Toujours""
+"cat result.txt | grep -v "Demande" | grep -v "Non" | grep -v "Tu" | grep -v "Toujours""
